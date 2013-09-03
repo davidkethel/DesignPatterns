@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatterns.Behavioral.ChainOfResponsibility;
 using DesignPatterns.Creational.AbstractFactory;
 using DesignPatterns.Structural.Adapter;
 
@@ -11,6 +12,10 @@ namespace DesignPatterns
             AbstractFactoryExample.Run();
 
             AdapterExample.Run();
+
+
+            ChainOfResponsibilityExample.Run();
+            
 
             Console.ReadLine();
         }

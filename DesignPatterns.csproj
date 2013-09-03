@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\CEO.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\ChainOfResponsibilityExample.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\VicePresident.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\Employee.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\PurchaseRequest.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\TeamLeader.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\DepartmentHead.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactoryExample.cs" />
     <Compile Include="Creational\AbstractFactory\FH.cs" />
     <Compile Include="Creational\AbstractFactory\Golf.cs" />
