@@ -53,6 +53,10 @@
     <Compile Include="Creational\AbstractFactory\VolvoFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter\oldClass.cs" />
+    <Compile Include="Structural\Adapter\Adapter.cs" />
+    <Compile Include="Structural\Adapter\Client.cs" />
+    <Compile Include="Structural\Adapter\Interfaces\INewTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
