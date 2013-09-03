@@ -19,11 +19,9 @@ namespace DesignPatterns
 
             Console.WriteLine(volkswagencar.Name() + ", " + volkswagenTruck.Name() + ", " + volvoCar.Name() + ", " + volvoTruck.Name());
 
-
             var target = new Adapter();
             var client = new Client(target);
             client.MakeRequest();
-
 
             Console.ReadLine();
         }
