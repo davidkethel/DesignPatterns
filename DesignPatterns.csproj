@@ -48,6 +48,8 @@
     <Compile Include="Behavioral\ChainOfResponsibility\PurchaseRequest.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\TeamLeader.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\DepartmentHead.cs" />
+    <Compile Include="Creational\Singleton\Singleton.cs" />
+    <Compile Include="Creational\Singleton\SingletonExample.cs" />
     <Compile Include="Structural\FlyWeight\FlyWeightExample.cs" />
     <Compile Include="Structural\FlyWeight\Solider.cs" />
     <Compile Include="Structural\FlyWeight\Tank.cs" />
