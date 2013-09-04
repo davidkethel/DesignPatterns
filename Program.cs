@@ -13,8 +13,7 @@ namespace DesignPatterns
             AbstractFactoryExample.Run();
 
             AdapterExample.Run();
-
-
+            
             ChainOfResponsibilityExample.Run();
             
             FlyWeightExample.Run();
