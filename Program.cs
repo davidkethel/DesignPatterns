@@ -19,6 +19,10 @@ namespace DesignPatterns
             FlyWeightExample.Run();
 
             Console.ReadLine();
+
+
+
+
         }
     }
 }
