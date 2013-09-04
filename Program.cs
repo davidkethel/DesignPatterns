@@ -2,6 +2,7 @@
 using DesignPatterns.Behavioral.ChainOfResponsibility;
 using DesignPatterns.Creational.AbstractFactory;
 using DesignPatterns.Structural.Adapter;
+using DesignPatterns.Structural.FlyWeight;
 
 namespace DesignPatterns
 {
@@ -16,6 +17,7 @@ namespace DesignPatterns
 
             ChainOfResponsibilityExample.Run();
             
+            FlyWeightExample.Run();
 
             Console.ReadLine();
         }
