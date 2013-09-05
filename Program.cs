@@ -24,7 +24,11 @@ namespace DesignPatterns
             Console.ReadLine();
 
 
+
             //change on Master Branch
+
+            //Conflict Branch Change
+
 
         }
     }
