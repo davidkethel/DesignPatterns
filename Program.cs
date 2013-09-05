@@ -24,7 +24,7 @@ namespace DesignPatterns
             Console.ReadLine();
 
 
-
+            //Conflict Branch Change
 
         }
     }
