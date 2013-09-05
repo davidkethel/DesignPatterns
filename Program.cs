@@ -14,22 +14,14 @@ namespace DesignPatterns
             AbstractFactoryExample.Run();
 
             AdapterExample.Run();
-            
+
             ChainOfResponsibilityExample.Run();
-            
+
             FlyWeightExample.Run();
 
             SingletonExample.Run();
 
             Console.ReadLine();
-
-
-
-            //change on Master Branch
-
-            //Conflict Branch Change
-
-
         }
     }
 }
