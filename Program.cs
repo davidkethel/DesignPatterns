@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.Behavioral.ChainOfResponsibility;
+using DesignPatterns.Behavioral.Memento;
 using DesignPatterns.Creational.AbstractFactory;
 using DesignPatterns.Creational.Singleton;
 using DesignPatterns.Structural.Adapter;
@@ -20,6 +21,8 @@ namespace DesignPatterns
             FlyWeightExample.Run();
 
             SingletonExample.Run();
+
+            MementoExample.Run();
 
             Console.ReadLine();
         }

@@ -48,6 +48,10 @@
     <Compile Include="Behavioral\ChainOfResponsibility\PurchaseRequest.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\TeamLeader.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\DepartmentHead.cs" />
+    <Compile Include="Behavioral\Memento\CareTaker.cs" />
+    <Compile Include="Behavioral\Memento\Memento.cs" />
+    <Compile Include="Behavioral\Memento\MementoExample.cs" />
+    <Compile Include="Behavioral\Memento\Person.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Creational\Singleton\SingletonExample.cs" />
     <Compile Include="Structural\FlyWeight\FlyWeightExample.cs" />
