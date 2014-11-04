@@ -7,6 +7,8 @@ namespace DesignPatterns.Structural.Adapter
         public void NewMethod()
         {
             oldMethod();
+
+            var i = 0;
         }
     }
 }
