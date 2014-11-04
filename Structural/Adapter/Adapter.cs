@@ -9,6 +9,8 @@ namespace DesignPatterns.Structural.Adapter
             oldMethod();
 
             var i = 0;
+            
+            var p = 9;
         }
     }
 }
