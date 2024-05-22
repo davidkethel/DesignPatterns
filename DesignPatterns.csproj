@@ -1,94 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40335356-A830-467A-AFB8-3DDFC9E6258A}</ProjectGuid>
+    <TargetFramework>net8.0</TargetFramework>
     <OutputType>Exe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPatterns</RootNamespace>
-    <AssemblyName>DesignPatterns</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>DesignPatterns</AssemblyTitle>
+    <Company>Microsoft</Company>
+    <Product>DesignPatterns</Product>
+    <Copyright>Copyright © Microsoft 2013</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Behavioral\ChainOfResponsibility\CEO.cs" />
-    <Compile Include="Behavioral\ChainOfResponsibility\ChainOfResponsibilityExample.cs" />
-    <Compile Include="Behavioral\ChainOfResponsibility\VicePresident.cs" />
-    <Compile Include="Behavioral\ChainOfResponsibility\Employee.cs" />
-    <Compile Include="Behavioral\ChainOfResponsibility\PurchaseRequest.cs" />
-    <Compile Include="Behavioral\ChainOfResponsibility\TeamLeader.cs" />
-    <Compile Include="Behavioral\ChainOfResponsibility\DepartmentHead.cs" />
-    <Compile Include="Behavioral\Memento\CareTaker.cs" />
-    <Compile Include="Behavioral\Memento\Memento.cs" />
-    <Compile Include="Behavioral\Memento\MementoExample.cs" />
-    <Compile Include="Behavioral\Memento\Person.cs" />
-    <Compile Include="Creational\Singleton\Singleton.cs" />
-    <Compile Include="Creational\Singleton\SingletonExample.cs" />
-    <Compile Include="Structural\FlyWeight\FlyWeightExample.cs" />
-    <Compile Include="Structural\FlyWeight\Solider.cs" />
-    <Compile Include="Structural\FlyWeight\Tank.cs" />
-    <Compile Include="Structural\FlyWeight\Target.cs" />
-    <Compile Include="Structural\FlyWeight\Unit.cs" />
-    <Compile Include="Structural\FlyWeight\UnitFactory.cs" />
-    <Compile Include="Creational\AbstractFactory\AbstractFactoryExample.cs" />
-    <Compile Include="Creational\AbstractFactory\FH.cs" />
-    <Compile Include="Creational\AbstractFactory\Golf.cs" />
-    <Compile Include="Creational\AbstractFactory\Interfaces\ICar.cs" />
-    <Compile Include="Creational\AbstractFactory\Interfaces\ITruck.cs" />
-    <Compile Include="Creational\AbstractFactory\Interfaces\IVehicleFactory.cs" />
-    <Compile Include="Creational\AbstractFactory\Transporter.cs" />
-    <Compile Include="Creational\AbstractFactory\V40.cs" />
-    <Compile Include="Creational\AbstractFactory\V60.cs" />
-    <Compile Include="Creational\AbstractFactory\VolkswagenFactory.cs" />
-    <Compile Include="Creational\AbstractFactory\VolvoFactory.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Structural\Adapter\AdapterExample.cs" />
-    <Compile Include="Structural\Adapter\oldClass.cs" />
-    <Compile Include="Structural\Adapter\Adapter.cs" />
-    <Compile Include="Structural\Adapter\Client.cs" />
-    <Compile Include="Structural\Adapter\Interfaces\INewTarget.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup />
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>
