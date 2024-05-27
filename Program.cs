@@ -2,6 +2,7 @@
 using DesignPatterns.Behavioral.ChainOfResponsibility;
 using DesignPatterns.Behavioral.Memento;
 using DesignPatterns.Creational.AbstractFactory;
+using DesignPatterns.Creational.Builder;
 using DesignPatterns.Creational.Clone;
 using DesignPatterns.Creational.Singleton;
 using DesignPatterns.Structural.Adapter;
@@ -26,6 +27,8 @@ namespace DesignPatterns
             MementoExample.Run();
 
             CloneExample.Run();
+
+            BuilderExample.Run();
 
             Console.ReadLine();
         }
