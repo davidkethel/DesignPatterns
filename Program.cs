@@ -7,6 +7,7 @@ using DesignPatterns.Creational.Clone;
 using DesignPatterns.Creational.Singleton;
 using DesignPatterns.Structural.Adapter;
 using DesignPatterns.Structural.FlyWeight;
+using DesignPatterns.Structural.Proxy;
 
 namespace DesignPatterns
 {
@@ -29,6 +30,8 @@ namespace DesignPatterns
             CloneExample.Run();
 
             BuilderExample.Run();
+
+            ProxyExample.Run();
 
             Console.ReadLine();
         }
