@@ -23,11 +23,5 @@ namespace DesignPatterns.Structural.Proxy
             Console.WriteLine($"Get Video Info: {videoId}");
             return _videoDB.FirstOrDefault(video => video.Id == videoId);
         }
-
-        public IEnumerable<Video> ListVideos()
-        {
-            Console.WriteLine("List Videos");
-            return _videoDB;
-        }
     }
 }
