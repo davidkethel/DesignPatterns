@@ -15,7 +15,7 @@ namespace DesignPatterns.Structural.Proxy
             var video1Again = proxy.GetVideoInfo(1);
             var video2 = proxy.GetVideoInfo(2);
 
-            proxy.NeedReset = true;
+            proxy.ResetCache();
 
             var video1AgainAgain = proxy.GetVideoInfo(1);
             var video2Again = proxy.GetVideoInfo(2);
