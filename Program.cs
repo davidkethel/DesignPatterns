@@ -1,6 +1,7 @@
 ﻿using System;
 using DesignPatterns.Behavioral.ChainOfResponsibility;
 using DesignPatterns.Behavioral.Memento;
+using DesignPatterns.Behavioral.Observer;
 using DesignPatterns.Creational.AbstractFactory;
 using DesignPatterns.Creational.Builder;
 using DesignPatterns.Creational.Clone;
@@ -32,6 +33,8 @@ namespace DesignPatterns
             BuilderExample.Run();
 
             ProxyExample.Run();
+
+            ObserverExample.Run();
 
             Console.ReadLine();
         }
